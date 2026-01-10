@@ -5,17 +5,21 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Les Recettes Fabuleuses</title>
         <style type="text/css">
+            @font-face {
+                font-family: "WindSong";
+                src: url(/font/WindSong-Medium.ttf);
+            }
             body {
                 font-family: Arial, sans-serif;
-                background-color: #ffdead;
+                background-color: #c06e56;
                 margin: 0;
                 padding: 0;
             }
             header {
-                background-color: #f4a460;
-                color: white;
+                background-color: #8f3b33;
+                color: rgb(215, 162, 71);
                 text-align: center;
-                padding: 20px;
+                padding: 18px;
             }
             h1 {
                 margin: 0;
@@ -33,23 +37,25 @@
                 padding: 20px;
             }
             .category {
-                background-color: #fff;
-                border: 1px solid #ddd;
-                border-radius: 8px;
-                margin: 10px;
+                background-color: hsl(29, 73%, 65%);
+                border: 2px solid #83955c38;
+                border-radius: 70px;
+                margin: 10px; 
                 padding: 20px;
-                width: 200px;
+                width: 330PX;
                 text-align: center;
                 box-shadow: 0 2px 5px rgba(0,0,0,0.1);
             }
             .category h2 {
-                color: #f4a460;
-            }
+                color: #000000;
+                font-family: 'WindSong'
+                
+}
             footer {
                 background-color: #f4a460;
                 color: white;
                 text-align: center;
-                padding: 10px;
+                padding: 1px;
                 position: fixed;
                 width: 100%;
                 bottom: 0;
@@ -62,7 +68,7 @@
         </header>
         
         <section class="intro">
-            <p>Bienvenue sur notre site dédié aux recettes délicieuses et faciles à réaliser ! Découvrez une variété de plats pour toutes les occasions.</p>
+            <p>Bienvenue sur notre site dédié aux recettes délicieuses et faciles à réaliser ! Découvrez une variété de plats pour toutes qui provient du monde entier.</p>
         </section>
         
         <section class="categories">
@@ -71,10 +77,17 @@
                 <p>Découvrez des entrées savoureuses pour commencer votre repas en beauté.</p>
                 <a href="#">Voir les entrées</a>
             </div>
+        </section>
+
+         <section class="categories">
             <div class="category">
                 <h2>Plats Principaux</h2>
                 <p>Des plats principaux riches en saveurs pour satisfaire tous les palais.</p>
                 <a href="#">Voir les plats</a>
+            </div>
+        </section>
+        
+         <section class="categories">
             </div>
             <div class="category">
                 <h2>Desserts</h2>
