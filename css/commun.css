@@ -30,9 +30,13 @@ h1 {
 }
 
 .intro {
+    display: flex;
+    justify-content: center;
+
     padding: 20px;
     font-size: var(--text_normale);
     font-style: italic;
+    /
 }
 
 /* Corp de page */
