@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&family=Imperial+Script&display=swap');
+
+/* Pannel de couleurs */
+
+:root {
+    --sombre: #8f3b33;
+    --normale: #c06e56;
+    --claire: #e7a465;
+
+    --text_normale: 1.2em;
+    --font_text: "Comic Relief", sans-serif;
+
+    --font_title: "Imperial Script", sans-serif;
+}
+
+/* Header */
+
+header {
+    background-color: var(--sombre);
+    color: var(--claire);
+    text-align: center;
+    padding: 1%;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+    font-family: var(--font_title);
+    font-size: 3em;
+}
+
+.intro {
+    padding: 20px;
+    font-size: var(--text_normale);
+    font-style: italic;
+}
+
+/* Corp de page */
+
+body {
+    font-family: var(--font_text);
+    background-color: #c06e56;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 5%; 
+}
+
+footer {
+    background-color: var(--claire);
+    color: var(--sombre);
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Composants des Categories */
+
+.categories {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.categories div {
+    padding: 20px;
+}
+
+.category {
+    background-color: var(--claire);
+    border: 3px solid #000000;
+    border-radius: 30px;
+    width: 30%;
+    margin-right: 5%;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    color: var(--normale);
+    font-style: italic;
+}
+
+h2 {
+    font-family: var(--font_title);
+    font-size: 2.5em;
+}
+
+ul {
+    list-style-type: none;
+    /* display:inline-flex; */
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    margin-right: 10%;
+    font-size: 20px;
+}
