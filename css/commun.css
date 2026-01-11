@@ -75,7 +75,26 @@ footer {
     background-color: var(--claire);
     border: 3px solid #000000;
     border-radius: 30px;
-    width: 30%;
+    margin-right: 5%;
+    text-align: center;
+}
+
+/* img.category {
+    background-color: var(--claire);
+    border: 3px solid #000000;
+    border-radius: 30px;
+    width: 400px;
+    height: 400px;
+    margin-right: 5%;
+    text-align: center;
+} */
+
+.img.category {
+    background-color: var(--claire);  
+    border: 3px solid #000000;
+    border-radius: 30px;
+    width: 400px;
+    height: 400px;
     margin-right: 5%;
     text-align: center;
 }
