@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&family=Imperial+Script&display=swap');
 
+#AC { align-items: center;
+
+}
+
+#Centrer {
+    text-align: center;
+
+}
+
 .etape {
     color: #ffaa33;
     text-align: center;
@@ -34,6 +43,7 @@ h1 {
     font-size: 2.5em;
     font-family: var(--font_title);
     font-size: 3em;
+    text-align: center;
 }
 
 .intro {
@@ -180,4 +190,3 @@ li {
 .detail-title {
     font-weight: bold;
 }
-
